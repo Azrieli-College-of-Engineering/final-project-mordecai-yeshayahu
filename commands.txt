@@ -1,5 +1,6 @@
 Crafted Commands for POC
 All commands are ran on 10.0.0.16 to emphasize how any external react19 server can be accessed not only by "localhost"
+Switch the url to your own local machine
 
 Simple exploit script to show the delivery of a modified payload and the hijacking of server terminal:
 
