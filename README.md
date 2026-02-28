@@ -10,7 +10,7 @@ To showcase the recently discovered React2Shell vulnerability
 
 The website is built on React 19.0.0 and Next.js 15.0.0 which are pre-patched to the vulnerability.
 
-##Explanation
+## Explanation
 This repo consists of specifically made e-commerce website with a shopping cart, a checkout page, a fake user database and a user dashboard.
 using a local machine 'nosql' database.
 
@@ -28,7 +28,7 @@ both scripts use the same method of malicious payload generation by using callba
 DO NOT USE FOR ILLEGAL PURPOSES. USE AT YOUR OWN RISK.
 
 
-Instructions below for the *website setup only*
+Instructions below for the *website setup + react2shell exploit*
 
 
 ## Running the website
