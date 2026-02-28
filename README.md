@@ -5,7 +5,9 @@
 # React2Shell -  E-commerce-VulnerableShop
 
 This website and Github repository were created by Mordecai Yeshayahu
+
 Course: "אבטחת מערכות Web"
+
 To showcase the recently discovered React2Shell-(CVE-2025-55182) vulnerability for the **extremely popular** - React UX/UI web/app infrastrucutre.  
 
 The vulnerable website is built on React 19.0.0 and Next.js 15.0.0 which are not-patched to the vulnerability.
