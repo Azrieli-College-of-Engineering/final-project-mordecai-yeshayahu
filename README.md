@@ -1,6 +1,6 @@
 ############# FOR EDUCATIONAL PURPOSES ONLY #############
 
-*It is recommended to watch the demo video for easier understanding*
+*It is recommended to watch the demo video (POC-demo.mp4) for easier understanding*
 
 # React2Shell -  E-commerce-VulnerableShop
 
