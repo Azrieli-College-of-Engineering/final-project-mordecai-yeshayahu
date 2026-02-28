@@ -1,16 +1,22 @@
 ############# FOR EDUCATIONAL PURPOSES ONLY #############
 
-# AntigravityVulnerableShop
+*It is recommended to watch the demo for easier understanding*
 
-This website and github repository was created by Mordecai Yeshayahu for the course "אבטחת מערכות Web" to showcase the recently discovered React2Shell vulnerability   
+# React2Shell -  E-commerce-VulnerableShop
+
+This website and github repository were created by Mordecai Yeshayahu
+For the course "אבטחת מערכות Web"
+To showcase the recently discovered React2Shell vulnerability   
+
 The website is built on React 19.0.0 and Next.js 15.0.0 which are pre-patched to the vulnerability.
 
-It consists of a simple e-commerce website with a shopping cart, a checkout page and a fake user database and a user dashboard.
-with local machine 'nosql' user database.
+##Explanation
+This repo consists of specifically made e-commerce website with a shopping cart, a checkout page, a fake user database and a user dashboard.
+using a local machine 'nosql' database.
 
-Using the React2Shell Python scripts uploaded to the repository, you can inject a malicious payload to the website and execute it on the user's machine through the server terminal.
+The React2Shell Python scripts uploaded to the repository, can inject a malicious payload to the website and execute it on the user's machine through the server terminal.
 
-commands.txt holds the script commands which show how can gain access to all the **fake** user data.
+commands.txt holds explanations and pre-made commands which show how can gain access to all the **fake** user data.
 
 Full disclosure: The Python scripts in this repository are not made by me(Mordecai), the original authors of the scripts are credited inside the scripts.
 
@@ -25,7 +31,7 @@ DO NOT USE FOR ILLEGAL PURPOSES. USE AT YOUR OWN RISK.
 Instructions below for the *website setup only*
 
 
-## Getting Started
+## Running the website
 
 First, run the development server:
 
@@ -42,7 +48,7 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Read Commands.txt
+## Read Commands.txt for exploit demonstration
 
 After deploying the website, you can use the Python scripts to inject a malicious payload to the website and execute it on the user's machine.
 
