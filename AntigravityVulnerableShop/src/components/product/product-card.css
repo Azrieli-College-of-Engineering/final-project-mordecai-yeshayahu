@@ -1,0 +1,106 @@
+.product-card {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    transition: all var(--transition-normal);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-glow);
+    border-color: rgba(99, 102, 241, 0.4);
+}
+
+.product-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 125%;
+    /* 4:5 aspect ratio */
+    overflow: hidden;
+    background: var(--bg-tertiary);
+}
+
+.product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.05);
+}
+
+.product-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: var(--spacing-md);
+}
+
+.product-card:hover .product-overlay {
+    opacity: 1;
+}
+
+.product-quick-add {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all var(--transition-normal);
+    width: 100%;
+}
+
+.product-card:hover .product-quick-add {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.product-info {
+    padding: var(--spacing-lg);
+    flex-grow: 1;
+}
+
+.product-meta {
+    color: var(--text-tertiary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.star-icon {
+    color: #fbbf24;
+}
+
+.product-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: color var(--transition-fast);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.product-title:hover {
+    color: var(--accent-primary-hover);
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin-top: auto;
+}

